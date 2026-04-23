@@ -463,6 +463,45 @@ h3 {
     radial-gradient(circle at 82% 18%, rgba(185, 153, 115, 0.1), transparent 28%);
 }
 
+.hero-slide__panel,
+.slide--dark,
+.slide--cta,
+#pricing,
+.hero-card,
+.featured-visual__caption,
+.banner-visual__overlay,
+.timeline-media__tile,
+.quote-panel {
+  color: var(--paper);
+}
+
+.hero-slide__panel h1,
+.hero-slide__panel h2,
+.hero-slide__panel h3,
+.hero-slide__panel p,
+.hero-slide__panel li,
+.hero-slide__panel strong,
+.slide--dark h1,
+.slide--dark h2,
+.slide--dark h3,
+.slide--dark p,
+.slide--dark li,
+.slide--dark strong,
+.slide--cta h1,
+.slide--cta h2,
+.slide--cta h3,
+.slide--cta p,
+.slide--cta li,
+.slide--cta strong,
+#pricing h1,
+#pricing h2,
+#pricing h3,
+#pricing p,
+#pricing li,
+#pricing strong {
+  color: inherit;
+}
+
 .slide--cta {
   padding: 0;
   color: var(--paper);
